@@ -1,7 +1,6 @@
 #container {
-    border: 1px solid rgb(49, 49, 49);
-    overflow-x: scroll;
-    width: 200px;
+    /* border: 1px solid rgb(49, 49, 49); */
+    overflow: hidden;
 }
 
 .container::-webkit-scrollbar {
@@ -19,12 +18,54 @@
     min-width: 50%;
     height: 100%;
     background: transparent;
-    color: transparent;
 }
 
-.textFixe {
-    position: fixed;
-    top: 10px;
+.button {
+    display: flex;
+}
+
+.p_btn {
+    color: transparent;
+    flex: 12;
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_title {
+    /* margin-right: 20rem; */
+    flexflex: 2;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imageVideo {
+    width: 15rem;
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.leftContent {
+    position: absolute;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .post>a {
@@ -34,17 +75,16 @@
 #posts {
     position: relative;
     display: flex;
-    max-width: 300px;
+    /* max-width: 300px; */
     min-height: 50px;
     white-space: nowrap;
-    display: flex;
     align-items: center;
     scroll-snap-type: x mandatory;
     width: 100vw;
 }
 
 a {
-    border: 1px solid rgb(44, 44, 44);
+    /* border: 1px solid rgb(44, 44, 44); */
     padding: 5px;
     color: rgb(12, 12, 12);
     margin: 5px;
