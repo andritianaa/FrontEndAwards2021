@@ -1,10 +1,6 @@
-const initContainer = () => {
-    var container = document.getElementById('container');
-    container.scrollLeft += 10;
-};
-
 function slide(direction) {
     scrollCompleted = 0;
+    var container = document.getElementById('container');
 
 
     var slideVar = setInterval(function() {
