@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Six+Caps&display=swap');
 #container {
     /* border: 1px solid rgb(49, 49, 49); */
     overflow: hidden;
@@ -42,11 +44,16 @@
     justify-content: center;
     align-items: center;
 }
+.Title{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 2.5rem;
+}
 .text_title{
-    /* margin-right: 20rem; */
-    flexflex: 2;
+    flex: 2;
     display: flex;
-    justify-content: flex-start; 
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
 }
 
 .imageVideo{
