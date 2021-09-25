@@ -1,11 +1,15 @@
 #container {
     border: 1px solid rgb(49, 49, 49);
-    overflow: scroll;
+    overflow-x: scroll;
     width: 200px;
 }
 
+.container::-webkit-scrollbar {
+    display: none;
+}
+
 .vide {
-    width: 5rem;
+    min-width: 50%;
     height: 100%;
     background: transparent;
     color: transparent;
@@ -16,7 +20,9 @@
     top: 10px;
 }
 
-.post {}
+.post>a {
+    width: 100%;
+}
 
 #posts {
     position: relative;
