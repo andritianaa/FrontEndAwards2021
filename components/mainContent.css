@@ -1,1 +1,29 @@
-@import url(value.css);
+#container {
+    border: 1px solid rgb(49, 49, 49);
+    overflow: scroll;
+    width: 200px;
+}
+
+#posts {
+    max-width: 300px;
+    min-height: 50px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    border: 1px solid rgb(44, 44, 44);
+    padding: 5px;
+    color: rgb(12, 12, 12);
+    margin: 5px;
+}
+
+button {
+    background: black;
+    color: rgb(36, 36, 36);
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
