@@ -1,21 +1,16 @@
 :root {
-  /*COLOR*/
-  --white: rgb(255, 255, 255);
-  --blue: rgb(97, 70, 255);
-  --green: rgb(70, 255, 224);
-  /*COLOR END*/
-
-  /******GRADIENT*******/
-  --gradient: linear-gradient(to right top, var(--green), var(--blue));
-  --cardGradient: linear-gradient(
-    to top right,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.7)
-  );
-  /******GRADIENT END*******/
-
-  /***************SHADOW*******/
-  --shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
-  --grey2: rgba(0, 0, 0, 0.877);
-  /***************SHADOW END*******/
+    /*COLOR*/
+    --white: rgb(255, 255, 255);
+    --blue: rgb(97, 70, 255);
+    --green: rgb(70, 255, 224);
+    --black: rgb(0, 0, 0);
+    /*COLOR END*/
+    /******GRADIENT*******/
+    --gradient: linear-gradient(to right top, var(--green), var(--blue));
+    --cardGradient: linear-gradient( to top right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.7));
+    /******GRADIENT END*******/
+    /***************SHADOW*******/
+    --shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    --grey2: rgba(0, 0, 0, 0.877);
+    /***************SHADOW END*******/
 }
